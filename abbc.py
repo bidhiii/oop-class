@@ -445,19 +445,7 @@
 # # decorated_func= make_pretty(ordinary)
 # # decorated_func()
 
-#opening a file in read mode
-file= open("example.txt", "r")
 
-#opening a file in write mode
-file=open("example .txt," "w")
-
-#opening a file in append mode
-file=open("example.txt", "a")
-
-#opening a file in binary read mode
-file=open("example.txt", "rb")
-
-print(file)
 
 
 

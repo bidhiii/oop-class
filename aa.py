@@ -70,6 +70,102 @@
 # print(result1)
 # print(result2)
 
+#REVISION
+#membership and identity operator
+# app="i have an apple"
+# print("a" in app)
+
+# app="i have an apple"
+# print("a"not in app)
+
+# app="i have an apple"
+# print("k" not in app)
+#membership operator in set
+# var={10,20,30,40,50}
+# a=10
+# b=20
+# print(b, "in", var, ":", b in var)
+# var={(10, 20),30,40,50}
+# a=10
+# b=20
+# print ((a,b),"in", var, ":",(a,b))
+
+# #membershp in dictonries
+# var={1:20, 2:20, 3:30} #it checks only key and not values
+# a=2
+# b=20
+# print(a, "in", var, ":", a in var)
+# print(b, "in", var, ":", b in var)
+
+#IDENTITY OPERATOR
+# a= [1, 2, 3, 4, 5]
+# print("id(a) :", id(a))
+# b=[1,2,3,4,5]
+# c=a
+# print(a is c)
+# print(a is b)
+# print("id(b):", id(b))
+# print("id(c)", id(c))
+#IS NOT
+# a=[1,2,3,4,5]
+# b=[1,2,3,4,5]
+# c=a
+# print(a is not c)
+# print(a is not b)
+
+# print("id(a):", id(a))
+# print("id(b):", id(b))
+# print("id(c):",id(c))
+#BITWISE OPERATOR
+
+# a=60 #AND operator
+# b=13
+# print("a:",a, "b:",b, "a&b:",a&b)
+# print("a:",bin(a))
+# print("b:", bin(b))
+# a=60 #OR OPERATOR
+# b=13
+# c=a|b
+# print(bin(c))
+# a=60 #XOR operator
+# b=13
+# c=a^b
+# print(bin(c))
+# a=60 #NOT operator
+# b=~a
+# print(bin(b))
+#bitwise rightshitft 
+# a=60
+# c=a>>2
+# print(bin(c))
+# #bitwise leftshit
+# a=60
+# c=a<<2
+# print(bin(c))
+# #IF-ELSE STATEMENT
+# age=5
+# print("age:",age)
+# if age>=8:
+#     print("is eligible to vote")
+# else:
+#     print("not eligible to vote")
+#NESTED IF STATEMENT
+# num=88
+# if num%2==0:
+#     if num%3==0:
+#            print("divisible by 2 and 3")
+# print("...execution stops...")
+
+ 
+
+
+
+
+
+
+
+
+
 
 
         
