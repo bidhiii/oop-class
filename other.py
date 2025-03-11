@@ -1,14 +1,24 @@
-#OOP REVISION
-# class Microwave:
-#     def __init__(self, brand:'str',power_rating:'str'):
-#         self.brand=brand
-#         self.power_rating=power_rating
-# smeg=Microwave()
-# print(smeg.brand)
-# print(smeg.power_rating)
+# # #regex
+# import re
+# txt="the rain in spain"
+# x= re.search("^The.*spain$", txt)
+# print(x) 
 
-# bosch=Microwave(brand:'bosch', power_rating:'C')
-# print(bosch.brand)
-# print(bosch.power_rating)
+# import re
+# txt="the rain in spain"
+# x= re.findall("ai", txt)
+# print(x) 
 
-    
+# import re
+# txt="the rain in spain"
+# x=re.search("\s", txt)
+# print("the first white-space characters is located in position:", x.start())
+
+# import re
+# txt= "the rain in spain"
+# x= re.search(r"bs\w+", txt)
+# print(x.string)
+
+
+
+
